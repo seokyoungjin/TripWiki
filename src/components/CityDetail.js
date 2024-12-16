@@ -6,7 +6,7 @@ export default function CityDetail() {
 
   this.render = () => {};
 
-  this.setState = (setState) => {
+  this.setState = (newState) => {
     this.state = newState;
     this.render();
   };
